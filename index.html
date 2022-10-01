@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icons/icon-crp.png">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="icons/style.css">
+    <title>Cruz Roja Paraguaya</title>
+</head>
+<body class="scroll">
+    <header class="main-header" id="main_header">
+        <div class="container">
+            <div>
+                <a href="#">
+                    <img src="img/logo.png" class="logo" alt="Logo dev">
+                </a>
+            </div>
+            <nav class="main-nav" id="nav_menu">
+                <ul class="list">
+                    <li>
+                        <a href="#home" class="link active-link">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#route" class="link">Aprendizaje</a>
+                    </li>
+                    <li>
+                        <a href="#tools" class="link">Herramientas</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="main-home" id="home">
+        <div class="container">
+            <div class="content-home">
+                <div class="content-information">
+                    <!-- <h1 class="title">¿Estas interesado/a en formar parte de la institución humanitaria mas grande del mundo?</h1> -->
+                    <!-- <h1 class="title">¿Quieres formar parte de la institución humanitaria más grande del mundo?</h1> -->
+                    <h1 class="title">¿Estas listo para formar parte?</h1>
+                    <p class="text-description">La institución humanitaria mas grande del mundo. <br> Aquí encontraras información, noticias, actividades del día a día de nuestros voluntarios alrededor del territorio paraguayo.</p>
+                        <a href="#route" class="button">Comenzar</a>
+                </div>
+                <div class="content-information">
+                    <img src="img/img-programmer.png" class="img" alt="Programmer">
+                </div>
+            </div>
+            <div class="scroll">
+                <a href="#route" class="button-scroll">
+                    <span class="action-button icon-mouse"></span>
+                    <span class="scroll-text">Desplázate</span>
+                    <span class="action-button icon-arrow-down scroll-arrow-down"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-route" id="route">
+        <div class="container">
+            <div class="route-title flex">
+                <img src="img/navigation.svg" class="image-title" alt="Logo de navegación">
+                <h2 class="title">Lineas de acción</h2>
+            </div>
+            <div class="route-section">
+                <div class="content-route" id="content_route">
+
+                    <div class="route-data">
+                        
+                        <div class="content-data flex">
+                            <div class="card-route" id="card_html" onclick="openModalRoute(this)">
+                                <div class="content-center">
+                                    <img src=" " class="image-tecnoligia" alt=" Logo">
+                                </div>
+                                <div>
+                                    <h3 class="item-title"> </h3>
+                                    <p class="item-description"> </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="route-circle"></span>
+                            <span class="route-line"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="route-data">
+                        <div></div>
+                        <div>
+                            <span class="route-circle"></span>
+                            <span class="route-line"></span>
+                        </div>
+                        <div class="content-data flex">
+                            <div class="card-route" id="card_css" onclick="openModalRoute(this)">
+                                <div class="content-center">
+                                    <img src=" " class="image-tecnoligia" alt=" Logo">
+                                </div>
+                                <div>
+                                    <h3 class="item-title"> </h3>
+                                    <p class="item-description"> </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="route-data">
+                        <div class="content-data flex">
+                            <div class="card-route" id="card_js" onclick="openModalRoute(this)">
+                                <div class="content-center">
+                                    <img src=" " class="image-tecnoligia" alt="Logo ">
+                                </div>
+                                <div>
+                                    <h3 class="item-title"> </h3>
+                                    <p class="item-description"> </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="route-circle"></span>
+                            <span class="route-line"></span>
+                        </div>
+                    </div>
+
+                    <div class="route-data">
+                        <div></div>
+                        <div>
+                            <span class="route-circle"></span>
+                            <span class="route-line"></span>
+                        </div>
+                        <div class="content-data flex">
+                            <div class="card-route" id="card_git" onclick="openModalRoute(this)">
+                                <div class="content-center">
+                                    <img src=" " class="image-tecnoligia" alt="Logo ">
+                                </div>
+                                <div>
+                                    <h3 class="item-title"> </h3>
+                                    <p class="item-description"> </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="route-data">
+                        <div class="content-data flex">
+                            <div class="card-route" id="card_project" onclick="openModalRoute(this)">
+                                <div class="content-center">
+                                    <img src="img/ic-website.svg" class="image-tecnoligia" alt="Logotipo de">
+                                </div>
+                                <div>
+                                    <h3 class="item-title">Proyectos</h3>
+                                    <p class="item-description">Reforzar los conocimentos</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="route-circle"></span>
+                            <span class="route-line"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="main-tools" id="tools">
+        <div class="container">
+            <div class="tools-title flex">
+                <img src="img/tools.svg" class="image-title" alt="Logo de navegación">
+                <h2 class="title">Herramientas</h2>
+            </div>
+
+            <div class="tools-grid">
+
+                <div class="card-tools" id="card_images" onclick="openModalTools(this)">
+                    <img src="img/tools-image.svg" class="image-card" alt="">
+                    <h3 class="card-title">Imágenes</h3>
+                </div>
+                <div class="card-tools" id="card_icons" onclick="openModalTools(this)">
+                    <img src="img/tools-icons.svg" class="image-card" alt="">
+                    <h3 class="card-title">Iconos</h3>
+                </div>
+                <div class="card-tools" id="card_text" onclick="openModalTools(this)">
+                    <img src="img/tools-text.svg" class="image-card" alt="">
+                    <h3 class="card-title">Texto</h3>
+                </div>
+                <div class="card-tools" id="card_color" onclick="openModalTools(this)">
+                    <img src="img/tools-color.svg" class="image-card" alt="">
+                    <h3 class="card-title">Color</h3>
+                </div>
+                <div class="card-tools" id="card_code" onclick="openModalTools(this)">
+                    <img src="img/tools-code.svg" class="image-card" alt="">
+                    <h3 class="card-title">Codificación</h3>
+                </div>
+                <div class="card-tools" id="card_music" onclick="openModalTools(this)">
+                    <img src="img/tools-music.svg" class="image-card" alt="">
+                    <h3 class="card-title">Música</h3>
+                </div>
+                <div class="card-tools-end" id="card_content_creators" onclick="openModalContentCreator(this)">
+                    <img src="img/developer-team.png" class="image-card" alt="">
+                    <div>
+                        <h3 class="card-title">Equipo de trabajo</h3>
+                        <p class="card-description">Sin el trabajo arduo de todo este equipo nada de esto podría haber sido posible, toda acción que pueda beneficiar y ayudar a otros es bienvenida.</p>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <div class="main-modal" id="main_modal">
+        <div class="container-modal">
+            <div class="modal-header">
+                <h3 class="title-modal">Title</h3>
+                <button class="close-modal" id="close_modal"><span class="action-button icon-close"></span></button>
+            </div>
+            <div class="modal-body scroll">
+                <!-- Aqui entra los items del modal  -->
+
+            </div>
+        </div>
+    </div>
+
+    <div class="creator-modal" id="creator_modal">
+        <div class="container-modal">
+            <div class="modal-header">
+                <h3 class="title-modal">Title</h3>
+                <button class="close-modal" id="close_modal_creator"><span class="action-button icon-close"></span></button>
+            </div>
+            <div class="modal-body">
+                <!-- Aqui entra los items del modal de creadores de contenido -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p class="footer-description">Desarrollado por <span class="owner">Fernando González</span> e impulsado por la <a class="day-programming" href="https://cruzroja.org.py" target="_blank">Cruz Roja Paraguaya</a> 2022.</p>
+            <!-- <div class="content-icon">
+                <a href="https://github.com/galosanchez" target="_blank" class="social-network"><span class="action-button icon-github"></span></a>
+                <a href="https://twitter.com/galosanchez_r" target="_blank" class="social-network"><span class="action-button icon-twitter"></span></a>
+            </div> -->
+        </div>
+    </footer>
+
+    <script src="scripts/script-index.js" type="module"></script>
+</body>
+</html>
