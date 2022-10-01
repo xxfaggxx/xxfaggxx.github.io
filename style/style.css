@@ -860,11 +860,11 @@ img {
     font-weight: var(--semibold-font);
 }
 
-.footer-description .day-programming {
+.footer-description .empresa {
     text-decoration: none;
     color: var(--color-primary-400);
 }
-.footer-description .day-programming:hover {
+.footer-description .empresa:hover {
     text-decoration: underline;
 }
 

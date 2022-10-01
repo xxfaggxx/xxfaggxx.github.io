@@ -84,19 +84,19 @@ const openModalRoute = (e) => {
     /* segun el id del card se carga la informacion al modal */
     const idCard = e.getAttribute('id');
     switch( idCard ) {
-        case 'card_html':
+        case 'card_l1':
             setDataModal(idCard);
             break;
-        case 'card_css':
+        case 'card_l2':
             setDataModal(idCard);
             break;
-        case 'card_js':
+        case 'card_l3':
             setDataModal(idCard);
             break;
-        case 'card_git':
+        case 'card_l4':
             setDataModal(idCard);
             break;
-        case 'card_project':
+        case 'card_l5':
             setDataModal(idCard);
             break;
         default:
@@ -134,22 +134,22 @@ const openModalTools = (e) => {
     titleCard.innerHTML = e.lastElementChild.textContent;
 
     switch( idCard ) {
-        case 'card_images':
+        case 'card_h1':
             setDataModal(idCard);
             break;
-        case 'card_icons':
+        case 'card_h2':
             setDataModal(idCard);
             break;
-        case 'card_text':
+        case 'card_h3':
             setDataModal(idCard);
             break;
-        case 'card_color':
+        case 'card_h4':
             setDataModal(idCard);
             break;
-        case 'card_code':
+        case 'card_h5':
             setDataModal(idCard);
             break;
-        case 'card_music':
+        case 'card_h6':
             setDataModal(idCard);
             break;
         default:

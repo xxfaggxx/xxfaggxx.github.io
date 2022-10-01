@@ -4,7 +4,7 @@ const getData = (tipo_data) => {
 
 function data () {
     return {
-/*         "card_html":[
+        "card_l1":[
             {
                 title: 'MDN web: HTML',
                 description: 'HTML (Lenguaje de Marcas de Hipertexto, del inglés HyperText Markup Language) es el componente más básico de la Web. Define el significado y la estructura del contenido web. Además de HTML, generalmente se utilizan otras tecnologías para describir la apariencia/presentación de una página web (CSS) o la funcionalidad/comportamiento (JavaScript).',
@@ -42,7 +42,7 @@ function data () {
                 img: 'https://i.imgur.com/K4AzYze.jpg'
             }
         ],
-        "card_css":[
+        "card_l2":[
             {
                 title: 'W3Schools',
                 description: 'CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed. This tutorial will teach you CSS from basic to advanced. Start learning CSS now " This CSS tutorial contains hundreds of CSS examples.',
@@ -92,7 +92,7 @@ function data () {
                 img: 'https://i.imgur.com/yeEf8jB.png'
             }
         ],
-        "card_js":[
+        "card_l3":[
             {
                 title: 'developer.mozilla',
                 description: 'JavaScript (JS) es un lenguaje de programación ligero, interpretado, o compilado justo-a-tiempo (just-in-time) con funciones de primera clase. Si bien es más conocido como un lenguaje de scripting (secuencias de comandos) para páginas web, y es usado en muchos entornos fuera del navegador, tal como Node.js, Apache CouchDB y Adobe Acrobat JavaScript es un lenguaje de programación basada en prototipos, multiparadigma, de un solo hilo, dinámico, con soporte para programación orientada a objetos, imperativa y declarativa (por ejemplo programación funcional).',
@@ -130,7 +130,7 @@ function data () {
                 img: 'https://i.imgur.com/h9NCRHx.png'
             }
         ],
-        "card_git":[
+        "card_l4":[
             {
                 title: 'Git-scm',
                 description: `This tutorial explains how to import a new project into Git, make changes to it, and share changes with other developers. If you are instead primarily interested in using Git to fetch a project, for example, to test the latest version, you may prefer to start with the first two chapters of The Git User's Manual.`,
@@ -157,7 +157,7 @@ function data () {
                 img: 'https://i.imgur.com/ePYFcNk.png'
             }
         ],
-        "card_project":[
+        "card_l5":[
             {
                 title: 'Frontend Mentor',
                 description: `Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs. Join 439,368 developers building projects, reviewing code, and helping each other get better. Icon with arrow pointing down Have a look through our collection of web designs. Pick one that you feel will be a nice challenge for you at this stage.`,
@@ -183,7 +183,7 @@ function data () {
                 img: 'https://i.imgur.com/VXgMGrO.png'
             }
         ], 
-        "card_images":[
+        "card_h1":[
             {
                 title: 'Imgur',
                 description: `Imgur es un sitio web para alojar imágenes en línea, fundado por Alan Schaaf en el 2009 en Ohio, Estados Unidos, como un regalo para la comunidad de Reddit.​`,
@@ -239,7 +239,7 @@ function data () {
                 img: 'https://i.imgur.com/Je1RzXK.png'
             }
         ],
-        "card_icons":[
+        "card_h2":[
             {
                 title: 'Iconscout',
                 description: `SVGs seleccionados, iconos vectoriales, ilustraciones, gráficos 3D y animaciones de Lottie. Más de 6000+ nuevos activos agregados todos los días. Complementos integrados, herramientas, editores y más.`,
@@ -283,7 +283,7 @@ function data () {
                 img: 'https://i.imgur.com/J9JsIBz.png'
             }
         ],
-        "card_text":[
+        "card_h3":[
             {
                 title: 'Typespiration',
                 description: `Combinaciones de fuentes inspiradoras y paletas de colores de uso gratuito en sus propios diseños.`,
@@ -321,7 +321,7 @@ function data () {
                 img: 'https://i.imgur.com/VxEZYJi.png'
             }
         ],
-        "card_color":[
+        "card_h4":[
             {
                 title: 'Colorsinspo',
                 description: `Miles de hermosas paletas de colores que puedes usar directamente con un solo clic.`,
@@ -359,7 +359,7 @@ function data () {
                 img: 'https://i.imgur.com/JsEM3UM.png'
             }
         ],
-        "card_code":[
+        "card_h5":[
             {
                 title: 'Visual Studio Code',
                 description: `Visual Studio Code es un editor de código redefinido y optimizado para crear y depurar aplicaciones web y en la nube modernas. Visual Studio Code es gratuito y está disponible en su plataforma favorita: Linux, macOS y Windows.`,
@@ -379,7 +379,7 @@ function data () {
                 img: 'https://i.imgur.com/3soiakd.png'
             }
         ],
-        "card_music":[
+        "card_h6":[
             {
                 title: 'YouTube - Chill Music Lab',
                 description: `En este canal contamos con una amplia variedad de playlists adecuadas para todo tipo de tareas cotidianas, como trabajo, estudios, programación, deportes y más.`,
@@ -410,108 +410,83 @@ function data () {
                 url: 'https://open.spotify.com/playlist/0kT14d35AGClGmPc5tVoxf?si=b6114a3d33cb42c4',
                 img: 'https://i.imgur.com/FNs02lQ.png'
             }
-        ], */
-        "card_content_creators":[
+        ],
+        "card_equipo":[
             {
                 name: 'Fernando Gonzalez',
                 url: 'https://www.linkedin.com/in/fernando-gonzalez-b36854186/',
                 img: 'https://media-exp1.licdn.com/dms/image/C4D03AQFs8ZrYXGLUzg/profile-displayphoto-shrink_800_800/0/1557405060487?e=1669852800&v=beta&t=xVzDhqt6CTxeTCu3XwlsU6l7IFN1RhQkNssDxu9EBEY'
             },
-            /* {
-                name: 'Míriam González',
-                url: 'https://twitter.com/miriamgonp',
-                img: 'https://i.imgur.com/gKbLJzv.jpg'
+            {
+                name: 'Cruz Roja Paraguaya',
+                url: 'link linkedin',
+                img: 'Img de perfil'
             },
             {
-                name: 'freeCodeCamp.org',
-                url: 'https://www.youtube.com/c/Freecodecamp',
-                img: 'https://i.imgur.com/ANpmkk8.jpg'
+                name: 'Nombre y Apellido',
+                url: 'link linkedin',
+                img: 'Img de perfil'
             },
             {
-                name: 'HolaMundo',
-                url: 'https://www.youtube.com/c/HolaMundoDev',
-                img: 'https://i.imgur.com/ZcpPNaz.jpg'
+                name: 'Nombre y Apellido',
+                url: 'link linkedin',
+                img: 'Img de perfil'
             },
             {
-                name: 'Carlos Azaustre',
-                url: 'https://www.youtube.com/c/CarlosAzaustre',
-                img: 'https://i.imgur.com/zvIsgNM.jpg'
+                name: 'Nombre y Apellido',
+                url: 'link linkedin',
+                img: 'Img de perfil'
             },
             {
-                name: 'Héctor de León',
-                url: 'https://www.youtube.com/c/hdeleonnet',
-                img: 'https://i.imgur.com/dkSjWQk.jpg'
+                name: 'Nombre y Apellido',
+                url: 'link linkedin',
+                img: 'Img de perfil'
             },
             {
-                name: 'Juan Villalvazo',
-                url: 'https://twitter.com/TecMotivacional',
-                img: 'https://i.imgur.com/vZwZBmG.jpg'
+                name: 'Nombre y Apellido',
+                url: 'link linkedin',
+                img: 'Img de perfil'
             },
             {
-                name: 'Fazt',
-                url: 'https://www.youtube.com/c/FaztTech',
-                img: 'https://i.imgur.com/XLteAlD.jpg'
+                name: 'Nombre y Apellido',
+                url: 'link linkedin',
+                img: 'Img de perfil'
             },
             {
-                name: 'Fernando Herrera',
-                url: 'https://www.youtube.com/c/FernandoHerreraCr',
-                img: 'https://i.imgur.com/pHLqjPh.jpg'
+                name: 'Nombre y Apellido',
+                url: 'link linkedin',
+                img: 'Img de perfil'
             },
             {
-                name: 'Online Tutorials',
-                url: 'https://www.youtube.com/c/OnlineTutorials4Designers',
-                img: 'https://i.imgur.com/JZA205d.jpg'
+                name: 'Nombre y Apellido',
+                url: 'link linkedin',
+                img: 'Img de perfil'
             },
             {
-                name: 'Solo Python',
-                url: 'https://www.youtube.com/c/SoloPython',
-                img: 'https://i.imgur.com/B9N83YA.jpg'
+                name: 'Nombre y Apellido',
+                url: 'link linkedin',
+                img: 'Img de perfil'
             },
             {
-                name: 'Kiko Palomares',
-                url: 'https://www.youtube.com/c/KikoPalomares',
-                img: 'https://i.imgur.com/m5hy31P.jpg'
+                name: 'Nombre y Apellido',
+                url: 'link linkedin',
+                img: 'Img de perfil'
             },
             {
-                name: 'Kosmic Red',
-                url: 'https://twitter.com/carmenansio',
-                img: 'https://i.imgur.com/13ZZQMl.jpg'
+                name: 'Nombre y Apellido',
+                url: 'link linkedin',
+                img: 'Img de perfil'
             },
             {
-                name: 'Csaba Kissi',
-                url: 'https://twitter.com/csaba_kissi',
-                img: 'https://i.imgur.com/e9jXhYJ.jpg'
+                name: 'Nombre y Apellido',
+                url: 'link linkedin',
+                img: 'Img de perfil'
             },
             {
-                name: 'OpenBootcamp ',
-                url: 'https://twitter.com/Open_Bootcamp',
-                img: 'https://i.imgur.com/rrgaomj.png'
+                name: 'Nombre y Apellido',
+                url: 'link linkedin',
+                img: 'Img de perfil'
             },
-            {
-                name: 'Pradeep Pandey',
-                url: 'https://twitter.com/Div_pradeep',
-                img: 'https://i.imgur.com/kvd14ED.jpg'
-            },
-            {
-                name: 'Alexanyer Naranjo',
-                url: 'https://twitter.com/alexanyernas',
-                img: 'https://i.imgur.com/V8VKU8V.jpg'
-            },
-            {
-                name: 'MoureDev',
-                url: 'https://twitter.com/MoureDev',
-                img: 'https://i.imgur.com/FFRqbex.jpg'
-            },
-            {
-                name: 'Freddy Montes',
-                url: 'https://twitter.com/fmontes',
-                img: 'https://i.imgur.com/mJgnfJZ.jpg'
-            },
-            {
-                name: 'Manz',
-                url: 'https://twitter.com/Manz',
-                img: 'https://i.imgur.com/oD9uT6N.jpg'
-            }, */
         ]
     }
 }

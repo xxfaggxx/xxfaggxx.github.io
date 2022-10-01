@@ -1,5 +1,5 @@
 /**
- * Crea un item para el modal de Ruta
+ * Crea un item para el modal de linea
  */
 const createItemDataModalRoute = (data) => {
     return `<div class="modal-card">
@@ -17,7 +17,7 @@ const createItemDataModalRoute = (data) => {
 }
 
 /**
- * Crea un item para el modal de Ruta
+ * Crea un item para el modal de Linea
  */
 const createItemDataModalCreator = (data) => {
     return `<a href="${data.url}" class="content-img" data-tooltip="${data.name}" target="_blank">
