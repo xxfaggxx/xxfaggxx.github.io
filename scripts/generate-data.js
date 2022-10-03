@@ -81,16 +81,16 @@ function data () {
             {
                 title: 'Titulo',
                 description: 'Descripcion',
-                url: 'link',
-                img: 'link imgur'
+                url: '',
+                img: ''
             },
         ],
         "card_h5":[
             {
-                title: 'Titulo',
-                description: 'Descripcion',
-                url: 'link',
-                img: 'link imgur'
+                title: 'Codigo Abierto',
+                description: 'Enlace al GIT de la pagina',
+                url: 'https://github.com/xxfaggxx/pag-cr',
+                img: 'https://imgur.com/AxLII6r'
             },
         ],
         "card_h6":[
